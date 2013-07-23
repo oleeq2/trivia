@@ -51,13 +51,4 @@ void merge_sort(int *array,int l,int r)
     }
 }
 
-int main(int argc, const char *argv[])
-{
-    int arr[5] = {-12 , 3 ,-1, 4 ,5};
-    merge_sort(arr,0,4);
-    int i;
-    for (i = 0; i < 5; i++) {
-        printf("%d ",arr[i]);
-    }
-    return 0;
-}
+
